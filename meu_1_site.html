@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Projeto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
-       .imagem-testemuniol{
+      body {
+        font-family:Montserrat, sans-serif;
+      }
+      
+    
+
+      .imagem-testemuniol{
         width: 90px;
         border-radius: 50%;
        }
@@ -14,12 +23,23 @@
         width: 20%;
         border-radius: 50%;
        }
-        *.h1 {
+        h1,h3, .coments-students{
             color: #11a36a;
         }
-      .testemuniol-text {
+      p, li {
         color: #475550;
       }
+      .button {
+        color: rgb(253, 252, 252);
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        background-color: #11a36a;
+        padding: 10px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+     }
+
 
     </style>
 </head>
@@ -29,7 +49,7 @@
     <h1>Sua carreira de sucesso em tecnologia começa aqui. Agora </h1>
     <img src="images/homem-sorrindo.jpeg" alt="Homem sorrindo" width="400px">
     
-    <p class="testemuniol-text"> 
+    <p > 
         Com atividades presenciais e online, mentorias individuais 
         desafios práticos, a trybe é a escola do futuro e para o futuro
         que acelra sua carreira en desenvolvimento de software em até 12 meses 
@@ -46,7 +66,7 @@
     
     <h3>A Trybe é para todos, inclusive para <strong>VOCÊ</strong> .</h3>
        
-    <p class="testemuniol-text"> 
+    <p > 
         Para você que <strong>já é estudante de computação</strong> , para você que <strong>se interessa pelo assunto</strong> e até mesmo para <strong>você que está pensando em mudar de carreira</strong>  e ainda não conhece nada.
         <br>
         <br>
@@ -59,35 +79,35 @@
 
     <img class="imagem-testemuniol" src="images/conrrado-medeiros.png" alt="conrrado-medeiros"> 
     
-    <p class="testemuniol-text">
+    <p >
     <em>   
         "Eu trabalho com Marketing e não tinha nenhuma formação ou experiência na área e consegui entrar na Trybe para me tornar desenvolvedor de software."
     </em> 
     </p>
-        <h4><strong> Conrado Medeiros</strong>
+        <h4 class="coments-students"><strong> Conrado Medeiros</strong>
         <br>
-         ‍Aluno da Turma de Setembro - BH
+         Aluno da Turma de Setembro - BH
         </h4>
 
     
     
     <img class="imagem-testemuniol" src="images/gabriel-dos-santos.png" alt="gabriel-dos-santos"> 
     
-    <p class="testemuniol-text">
+    <p >
     <em>  
         "Eu não sabia nada de programação! Estudei os conteúdos gratuitos disponibilizados, consegui fazer o processo e passar. Estou aqui firme e forte para conseguir virar um desenvolvedor."
      </em> 
     </p>
-        <h4>
+        <h4 class="coments-students">
             <strong>Gabriel dos Santos</strong> 
-            <br>
-‍            Aluno da Turma de Setembro - BH
+            <br>      
+                Aluno da Turma de Setembro - BH
         </h4>
     
    
     <img class="imagem-testemuniol"  src="images/anderson-bolivar.png" alt="anderson-bolivar">
     
-    <p class="testemuniol-text">
+    <p >
     
     <em>
         "Sou estudante de  Engenharia Química e entrei na Trybe sem nenhuma experiência na área e estou 
@@ -95,7 +115,7 @@
     </em> 
     </p> 
         
-    <h4> <strong>Anderson Bolivar</strong> 
+    <h4 class="coments-students"> <strong>Anderson Bolivar</strong> 
         <br>
         Aluno da Turma de Setembro - BH
     </h4>
@@ -111,10 +131,10 @@
     <img class="imagem-cos" src="images/Matheus-goyas.jpeg" alt="Matheus-goyas">
     
     
-    <p class="testemuniol-text">
+    <p >
         Fundamos a Trybe porque acreditamos que qualquer pessoa que tenha muita vontade de vencer, independente da formação ou da condição financeira, é capaz de ter uma carreira de sucesso.
     </p>  
-    <h4>
+    <h4 >
         <strong>Matheus Goyas,</strong> 
         CEO e Co-fundador
         da Trybe
@@ -124,7 +144,7 @@
     <img class="imagem-cos" src="images/joao-duarte.jpeg" alt="joao-duarte">    
     
     
-    <p class="testemuniol-text">
+    <p>
         Temos a premissa de fazer os  estudantes viverem na prática desafios idênticos aos enfrentados na vida real. Nosso  compromisso é tão grande com o  sucesso, que a Trybe só ganha se <br> os nossos estudantes estiverem  ganhando bem. 
     </p>
         
@@ -140,8 +160,8 @@
         Como é a formação?
     </h3>
     <ul>
-        <li>Atividades <strong>online, offline e apoio individual</strong>  para cada aluno</li>
-        <li>Experiência <strong>mão na massa</strong> , lidando com <strong>< desafios e problemas reais/strong></li>
+        <li>Atividades <strong>online, offline e apoio individual</strong>  para cada aluno</li> class="testemuniol-text"
+        <li>Experiência <strong>mão na massa</strong> , lidando com <strong> desafios e problemas reais</strong></li>
         <li>Equipe dedicada a te ajudar a encontrar a <strong> oportunidade profissional perfeita para você</strong></li>
         <li>Vivência das <strong> rotinas e processos reais </strong>de desenvolvimento das <strong> empresas de ponta</strong></li>
 
@@ -156,7 +176,10 @@
         E QUE TENHA MUITA VONTADE E DEDICAÇÃO!
         </p>
     <h3>Quer saber mais sobre a nossa formação</h3>
-    <a href="https://app.betrybe.com/course" target="_blank" >Acesse aqui a nossa formação</a>
+    <a href="https://app.betrybe.com/course" target="_blank" class="button" >Acesse aqui a nossa formação</a>
+
+    <br>
+    <br>
 
 </body>
 </html>
